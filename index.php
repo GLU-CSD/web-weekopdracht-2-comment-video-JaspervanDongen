@@ -47,7 +47,7 @@
     </div>
 
     <script>
-    const apiKey = 'AIzaSyAiGHWk0Cx40XPFEoYUqXNZgytbOdA2hB4'; // Replace with your actual YouTube API key
+    const apiKey = '...'; // Replace with your actual YouTube API key
 
     // Submit comment form
     document.getElementById('comment-form').addEventListener('submit', function (e) {
