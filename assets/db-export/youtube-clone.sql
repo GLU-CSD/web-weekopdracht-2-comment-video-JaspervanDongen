@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `reactions` (
-  `id` int(10) UNSIGNED NOT NULL,
+  `id` varchar(255) UNSIGNED NOT NULL,
   `video_id` int(11) DEFAULT NULL,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
